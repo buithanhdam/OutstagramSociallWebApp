@@ -1,0 +1,36 @@
+.modal-body{
+    background: none;
+}
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-container .modal-container-main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-container>div .modal-container-left-side{
+    background-color: black;
+    height: 100%;
+    width: 650px;
+    height: 760px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.modal-container>div .modal-container-left-side img{
+    width: 100%;
+    height: 95%;
+}
+.modal-container>div .modal-container-right-side{
+    width: 500px;
+    height: 100%;
+}

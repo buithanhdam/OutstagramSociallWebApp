@@ -1,0 +1,50 @@
+:root{
+  --primary-color: white;
+  --hover-color: rgb(240, 240, 240);
+  --border-color :#dbdbdb;
+  --background-color : #fafafa;
+  --input-color : #ececec;
+  --secondText-color : #989898;
+  --primaryText-color: black;
+  --postButton-color: #21a3f7;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.App{
+  position: hidden;
+  height: 100vh;
+  color: black;
+  background-color: var(--primary-color);
+}
+.Button{
+     background-color: var(--postButton-color);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+.Button-red{
+  background-color: red;
+}
+.Button-blue{
+  background-color: var(--postButton-color);
+}
+.Button-s{
+  width: 100px;
+}
+.Button-m{
+  width:200px;
+}
+.text-font-bold9{
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.text-font-bold10{
+  font-size: 1rem;
+  font-weight: 500;
+}

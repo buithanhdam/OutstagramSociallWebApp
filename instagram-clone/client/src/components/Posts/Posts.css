@@ -1,0 +1,19 @@
+.posts-container{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow: auto;
+    height: 100%;
+    align-items: center;
+}
+/* 470870 */
+.posts-container .posts-container-group{
+    height: 90%;
+    background-color: var(--background-color);
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
